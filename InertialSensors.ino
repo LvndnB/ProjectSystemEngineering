@@ -1,12 +1,13 @@
 #include <Wire.h>
 #include <Zumo32U4.h>
-#include <Zumo32U4IMU.h>
 
 Zumo32U4IMU imu;
 
+
 void setup() {
   Wire.begin(); // Nodig voor het gebruik van de library functions
-
+  imu.init();
+  
 }
 
 void loop() {
