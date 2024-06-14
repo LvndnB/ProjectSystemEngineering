@@ -1,5 +1,6 @@
 #include <Wire.h>
 #include <Zumo32U4.h>
+#include <cmath>
 
 Zumo32U4IMU imu;
 
