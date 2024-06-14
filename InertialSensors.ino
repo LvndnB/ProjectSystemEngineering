@@ -21,18 +21,18 @@ void loop() {
   Serial.println(imu.a.z);
 
   Serial.print("Vector gyro: ");
-  Serial.print(imu.m.x);
-  Serial.print(", ");
-  Serial.print(imu.m.y);
-  Serial.print(", ");
-  Serial.println(imu.m.z);
-
-  Serial.print("Vector magnetometer: ");
   Serial.print(imu.g.x);
   Serial.print(", ");
   Serial.print(imu.g.y);
   Serial.print(", ");
   Serial.println(imu.g.z);
+
+  Serial.print("Vector magnetometer: ");
+  Serial.print(imu.m.x);
+  Serial.print(", ");
+  Serial.print(imu.m.y);
+  Serial.print(", ");
+  Serial.println(imu.m.z);
 
   delay(1000);
 
